@@ -1,0 +1,12 @@
+home_dir='~'
+current_dir='.'
+
+function f-g() {
+  echo "find $1 in home directory"
+  find "${home_dir}" ~ -name $1
+}
+
+function f-l() {
+  echo "find $1 in current directory"
+  find "${current_dir}" ~ -name $1
+}
