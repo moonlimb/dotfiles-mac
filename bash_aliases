@@ -66,3 +66,4 @@ function targz() {
 function tar() {
   tar xopft $1
 }
+

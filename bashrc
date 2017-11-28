@@ -2,6 +2,7 @@
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/usr/bin:$PATH
+export PATH=/usr/local/opt/python/libexec/bin:$PATH
 
 # Bash configs #
 . $HOME/dotfiles/bash_aliases
@@ -30,7 +31,7 @@ export PATH=/usr/bin:$PATH
 
 export WORKON_HOME=$HOME/.virtualenvs
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 export VIRTUALENV_USE_DISTRIBUTE=true
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
